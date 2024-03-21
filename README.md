@@ -1,6 +1,9 @@
-# idktbh
+# Quiz App
 
 A new Flutter project.
+
+i made this application following the instructions, in the process of learning flutter for the sake of application deployment
+stay tuned for more projects!
 
 ## Getting Started
 
