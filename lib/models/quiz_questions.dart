@@ -1,0 +1,13 @@
+class QuizQuestions {
+  QuizQuestions(this.text, this.answers);
+
+  final String text;
+  final List<String> answers;
+
+  List<String> getShuffledAnswers() {
+    final shuffledList = List.of(answers);
+    shuffledList
+        .shuffle(); // this function is inplace, i.e it returns nothing and edits the original variable
+    return shuffledList;
+  }
+}
